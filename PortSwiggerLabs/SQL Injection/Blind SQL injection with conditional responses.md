@@ -6,3 +6,14 @@ The database contains a different table called users, with columns called userna
 the administrator user.
 
 To solve the lab, log in as the administrator user. 
+
+The lab description already tells me that there are a table called users, with username and password and the user i need to discover the password is the administrator, when i browse the application, i see the message Welcome Back!:
+
+
+<img width="1909" height="902" alt="image" src="https://github.com/user-attachments/assets/6bf1f5d5-a041-48fa-9a32-c7a9732a7cf1" />
+
+On Burp, i can see the cookie header TrackingId:
+
+<img width="1870" height="757" alt="image" src="https://github.com/user-attachments/assets/228a7a88-2f40-4d02-9777-fd2eefca446b" />
+
+
